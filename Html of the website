@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lost and Found Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Lost and Found Hub</h1>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#search">Search</a>
+  <a href="#report-lost">Report Lost</a>
+  <a href="#report-found">Report Found</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main class="container">
+
+  <section id="home">
+    <h2>Welcome to Lost and Found Hub</h2>
+    <p>Your platform to report lost or found items and help reunite them efficiently.</p>
+  </section>
+
+  <section id="search">
+    <h2>Search Lost & Found Items</h2>
+    <input type="text" placeholder="Enter keywords or description" />
+    <button>Search</button>
+    <!-- Ideally connect this to backend search -->
+  </section>
+
+  <section id="report-lost">
+    <h2>Report Lost Item</h2>
+    <form>
+      <label for="lost-name">Your Name</label>
+      <input type="text" id="lost-name" name="lost-name" required />
+      
+      <label for="lost-email">Email</label>
+      <input type="email" id="lost-email" name="lost-email" required />
+      
+      <label for="lost-description">Item Description</label>
+      <textarea id="lost-description" name="lost-description" rows="4" required></textarea>
+      
+      <label for="lost-image">Upload Image</label>
+      <input type="file" id="lost-image" name="lost-image" accept="image/*" />
+      
+      <button type="submit">Submit Lost Report</button>
+    </form>
+  </section>
+
+  <section id="report-found">
+    <h2>Report Found Item</h2>
+    <form>
+      <label for="found-name">Your Name</label>
+      <input type="text" id="found-name" name="found-name" required />
+      
+      <label for="found-email">Email</label>
+      <input type="email" id="found-email" name="found-email" required />
+      
+      <label for="found-description">Item Description</label>
+      <textarea id="found-description" name="found-description" rows="4" required></textarea>
+      
+      <label for="found-image">Upload Image</label>
+      <input type="file" id="found-image" name="found-image" accept="image/*" />
+      
+      <button type="submit">Submit Found Report</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Details</h2>
+    <p>If you have questions, contact us:</p>
+    <p>Email: support@lostandfoundhub.com</p>
+    <p>Phone: +123 456 7890</p>
+  </section>
+
+  <section id="live-monitor">
+    <h2>Live Records Monitor System</h2>
+    <p>Access live lost and found records:</p>
+    <a href="https://your-live-monitor-system-link.com" target="_blank" rel="noopener noreferrer">Live Monitor System</a>
+  </section>
+
+</main>
+<script> https://docs.google.com/spreadsheets/d/10zeSk2vi-S_u1zH8w_2Q9-IzOSkgbM9OrhdWecuPPKA/edit?usp=drivesdk</script>
+</body>
+</html
